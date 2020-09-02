@@ -1,4 +1,7 @@
-The restored website for http://buildemotionalmuscle.com. It has been restored from a [web.archive.org]() backup and modified to function as a fully static site.
+The restored website for http://buildemotionalmuscle.com. It has been restored from a [web.archive.org](http://web.archive.org) backup and modified to function as a fully static site.
+
+The site is temporarily hosted at:
+[http://buildemotionalmuscle.s3-website.us-east-2.amazonaws.com](http://buildemotionalmuscle.s3-website.us-east-2.amazonaws.com)
 
 ## Contents
 
@@ -10,7 +13,7 @@ Known changes:
 
 ### `archives/`
 
-This is where full archives from [web.archive.org]() are stored. The initial archive is named `20181003`, it has an archive of the website as of 10/03/2008. 
+This is where full archives from [web.archive.org](http://web.archive.org) are stored. The initial archive is named `20181003`, it has an archive of the website as of 10/03/2008. 
 
 ## Fetch an archive from [web.archive.org]()
 ```
