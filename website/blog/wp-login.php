@@ -3,14 +3,14 @@
 <head>
 	<title>Emotional Muscle &rsaquo; Log In</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel='stylesheet' id='login-css'  href='http://buildemotionalmuscle.com/blog/wp-admin/css/login.css?ver=20100601' type='text/css' media='all' />
-<link rel='stylesheet' id='colors-fresh-css'  href='http://buildemotionalmuscle.com/blog/wp-admin/css/colors-fresh.css?ver=20100610' type='text/css' media='all' />
+<link rel='stylesheet' id='login-css'  href='/blog/wp-admin/css/login.css?ver=20100601' type='text/css' media='all' />
+<link rel='stylesheet' id='colors-fresh-css'  href='/blog/wp-admin/css/colors-fresh.css?ver=20100610' type='text/css' media='all' />
 <meta name='robots' content='noindex,nofollow' />
 </head>
 <body class="login">
 <div id="login"><h1><a href="http://wordpress.org/" title="Powered by WordPress">Emotional Muscle</a></h1>
 
-<form name="loginform" id="loginform" action="http://buildemotionalmuscle.com/blog/wp-login.php" method="post">
+<form name="loginform" id="loginform" action="/blog/wp-login.php" method="post">
 	<p>
 		<label>Username<br />
 		<input type="text" name="log" id="user_login" class="input" value="" size="20" tabindex="10" /></label>
@@ -22,16 +22,16 @@
 	<p class="forgetmenot"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" tabindex="90" /> Remember Me</label></p>
 	<p class="submit">
 		<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" tabindex="100" />
-		<input type="hidden" name="redirect_to" value="http://buildemotionalmuscle.com/blog/wp-admin/" />
+		<input type="hidden" name="redirect_to" value="/blog/wp-admin/" />
 		<input type="hidden" name="testcookie" value="1" />
 	</p>
 </form>
 
 <p id="nav">
-<a href="http://buildemotionalmuscle.com/blog/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
+<a href="/blog/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
 </p>
 </div>
-<p id="backtoblog"><a href="http://buildemotionalmuscle.com/blog/" title="Are you lost?">&larr; Back to Emotional Muscle</a></p>
+<p id="backtoblog"><a href="/blog/" title="Are you lost?">&larr; Back to Emotional Muscle</a></p>
 
 <script type="text/javascript">
 function wp_attempt_focus(){
